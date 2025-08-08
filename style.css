@@ -30,6 +30,7 @@ body {
   font-weight: bold;
   font-size: 1.2em;
   text-transform: uppercase;
+  font-family: 'Fredoka';
 }
 
 .day {
@@ -40,4 +41,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Fredoka';
 }
