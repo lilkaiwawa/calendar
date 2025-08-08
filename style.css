@@ -1,6 +1,6 @@
 /* Apply Quicksand font and center the layout */
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Silkscreen', cursive, monospace;
   background: #111;
   display: flex;
   justify-content: center;
