@@ -1,13 +1,15 @@
+/* Apply Quicksand font and center the layout */
 body {
+  font-family: 'Quicksand', sans-serif;
   background: #111;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
 }
 
+/* Main calendar square */
 .calendar-widget {
   width: 200px;
   height: 200px;
@@ -21,6 +23,7 @@ body {
   justify-content: space-between;
 }
 
+/* Orange banner for the weekday */
 .banner {
   width: 100%;
   background-color: orange;
@@ -30,9 +33,9 @@ body {
   font-weight: bold;
   font-size: 1.2em;
   text-transform: uppercase;
-  font-family: 'Fredoka', sans-serif;
 }
 
+/* Big number for the date */
 .day {
   color: white;
   font-size: 4em;
@@ -41,5 +44,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Fredoka', sans-serif;
 }
